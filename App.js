@@ -10,7 +10,7 @@ function App() {
   useEffect(()=>{
     const userInformation=localStorage.getItem('email');
 
-    if(userInformation==='1234567'){
+    if(userInformation==='1'){
       setIsLoggedIn(true);
     }
   },[]);
